@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.contato {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Lado esquerdo */
+.info {
+  flex: 1;
+  align-content: center;
+}
+
+.info h1 {
+  font-size: 48px;
+  color: #0c4c6c;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.info ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.info li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.social a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0a0a8f;
+  font-weight: bold;
+}
+
+/* Lado direito */
+.formulario {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.linha {
+  display: flex;
+  gap: 15px;
+}
+
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #12678d;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0c4c6c;
+}
+
+
+.cabecalho {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 0;
+    
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.topo {
+    background-color: #12678D;
+    color: white;
+    height: auto;
+    padding: 5px 0;
+}
+
+.topo h1 {
+    font-size: 14px;
+    font-weight: 200;
+}
+footer{
+    background-color: #12678D;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul {
+  list-style: none;      
+  display: flex;         
+  gap: 30px;                      
+}
+nav ul li {
+  color: #0c4c6c;
+  cursor: pointer;
+  font-weight: 600;      
+  font-size: 16px;
+  text-transform: none; 
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  color: #1ba3db;
+}
+
+nav ul li a{
+  color: #0c4c6c;
+  cursor: pointer;
+  font-weight: 600;      
+  font-size: 16px;
+  text-transform: none; 
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #1ba3db;
+}
+
+.formulario-entrar{
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  width: 400px;
+  margin: 80px auto;
+}
+
+.politica{
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.politica h1{
+  color: #0c4c6c;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.politica p{
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.entrar {
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #12678d;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.entrar:hover {
+  background-color: #0c4c6c;
+}
